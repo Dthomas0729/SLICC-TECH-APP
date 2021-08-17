@@ -1,11 +1,15 @@
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import SideNav from './components/SideNav/index'
-import Home from './components/pages/Home/index'
+
 
 function App() {
   return (
     <div>
-      <SideNav />
+      <Router>
+        <SideNav />
+      </Router>
+
     </div>
   );
 }
