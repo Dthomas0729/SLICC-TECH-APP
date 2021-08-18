@@ -7,10 +7,10 @@ import { IconContext } from 'react-icons'
 
 import SideNavData from './sideNavData'
 import './style.css'
-import Home from '../pages/Home/index'
-import Services from '../pages/Services/index'
-import GetAQuote from '../pages/GetAQuote/index'
-import Showcase from '../pages/Showcase/index'
+import Home from '../../pages/Home/index'
+import Services from '../../pages/Services/index'
+import GetAQuote from '../../pages/GetAQuote/index'
+import Showcase from '../../pages/Showcase/index'
 
 
 function SideNav() {
