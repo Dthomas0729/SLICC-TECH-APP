@@ -1,0 +1,100 @@
+:root {
+    --primary: white;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: black;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline {
+    background-color: blue;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--mobile {
+    text-align: center;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+    padding: 14px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+}
+
+.btn--wide {
+    padding: 12px 64px;
+    font-size: 20px;
+}
+
+.btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
+    transition: all 0.3 ease-out;
+    background-color: white;
+    color: black;
+} 
+
+.btn--wide:hover {
+    transition: all 0.3 ease-out;
+    background-color: #f00946;
+    color: white;
+}
+
+.blue {
+    background-color: #276afb;
+    color: white;
+    border: none;
+}
+
+.red {
+    background-color: #f00946;
+    color: white;
+    border: none;
+}
+
+.primary {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.primary:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.green {
+    background-color: #25ce4a;
+    color: white;
+    border: none;
+}
+
+.green:hover {
+    background-color: black;
+}
