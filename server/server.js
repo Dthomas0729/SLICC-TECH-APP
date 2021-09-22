@@ -17,6 +17,8 @@ app.use(express.static(path.join(__dirname, "..", "build")));
 app.use(express.static("public"));
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
 
 // ======= REACT FULL STACK MAGIC MIDDLEWARE
 app.use((req, res, next) => {
@@ -24,6 +26,6 @@ app.use((req, res, next) => {
 });
 
 // start express server on port 5000
-app.listen(process.env.PORT, () => {
+app.listen(5000, () => {
     console.log("SLICC Developers WE ARE LIVE!: http://localhost:5000");
 });
