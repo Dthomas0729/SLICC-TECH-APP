@@ -26,6 +26,6 @@ app.use((req, res, next) => {
 });
 
 // start express server on port 5000
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log("SLICC Developers WE ARE LIVE!: http://localhost:5000");
 });
