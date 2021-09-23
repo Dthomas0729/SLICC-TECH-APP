@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import { GrTechnology } from 'react-icons/gr'
-import "./style.css";
+import "./styles.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import SideNav from "../SideNav";
 import Button from "../Button/index";

@@ -6,7 +6,7 @@ import * as AiIcons from 'react-icons/ai'
 import { IconContext } from 'react-icons'
 
 import SideNavData from './sideNavData'
-import './style.css'
+import './styles.css'
 import Home from '../../pages/Home/index'
 import Services from '../../pages/Services/index'
 import GetAQuote from '../../pages/GetAQuote/index'
