@@ -1,9 +1,15 @@
 import React from 'react'
+import servicesImage from '../../images/services-pic.jpg'
+import './styles.css'
 
 function Services() {
     return (
         <div className='services'>
-            <h1>We Build Industry Advanced Software Applications</h1>
+            <div className='title-card'>
+                <h1>Services</h1>
+                <img alt='services' src={servicesImage} />
+
+            </div>
         </div>
     )
 }
