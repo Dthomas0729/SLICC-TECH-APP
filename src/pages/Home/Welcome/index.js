@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../../../images/young-man-coding.jpg'
+import background from '../../../images/home_welcome.jpg'
 
 import './styles.css'
 
